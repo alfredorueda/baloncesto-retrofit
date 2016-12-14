@@ -107,7 +107,7 @@ public class RestSynchronous {
         /**
          * Ejemplo GET de un jugador
          */
-        callPlayer = playerService.getPlayer(1L);
+        callPlayer = playerService.getPlayer(2L);
         responsePlayer = callPlayer.execute();
 
         if(responsePlayer.isSuccessful()) {
